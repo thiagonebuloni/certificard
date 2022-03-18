@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+  min-height: 850px;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-position: center top;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  background: #ECF4FF;
+  color: #1C1C1C;
+  margin-right: 64px;
+  margin-left: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 50%;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 35px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.tema button {
+  display: flex;
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ECF4FF;
+  border-radius: 100px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.42);
+  
+}
+
+.projetos {
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  padding-bottom: 32px;
+  padding-top: 32px;
+  padding-right: 60px;
+  margin-top: 32px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 46px;
+}
+
+.projetos-item a {
+  color: #1C1C1C;
+  text-decoration: none;
+}
+
+.codepen {
+  max-width: 300px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.42);  
+}
+
+.rodape {
+  /*background: linear-gradient(180deg, #ECF4FF 27.26%, #3468A7 96.03%);*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: center;
+  width: 80%;
+  line-height: 0px;
+}
+
+.div-rodape {
+  display: flex;
+  justify-content: center;
+  align-items: bottom;
+  alignment-baseline: bottom;
+  width: inherit;
+}
+
+.div-rodape a {
+  text-decoration: none;
+  color: #1C1C1C;
+}
+
+.rodape-imagens {
+  margin-top: 80px;
+  margin-right: 8px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  max-height: 40px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.42);
+}
+
+.h5 {
+  line-height: 0px;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+  
+}
+
+.dark .container  {
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.dark .projetos {
+  color: #1C1C1C;
+}
+
+.dark .tema button {
+  background: #1C1C1C;
+  color: #FFFFFF;
+  border: 2px solid #F7F7F7;
+}
